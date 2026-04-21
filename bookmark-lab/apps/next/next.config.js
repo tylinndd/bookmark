@@ -69,6 +69,7 @@ const withTurpopack = {
  */
 module.exports = {
   transpilePackages: [
+    'app',
     'react-native',
     'react-native-web',
     'solito',
