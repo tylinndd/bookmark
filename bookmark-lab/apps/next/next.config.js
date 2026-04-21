@@ -74,7 +74,6 @@ module.exports = {
     'react-native-web',
     'solito',
     'react-native-reanimated',
-    'moti',
     'react-native-gesture-handler',
   ],
 

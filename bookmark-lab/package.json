@@ -12,9 +12,9 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "web": "yarn workspace next-app dev",
-    "native": "yarn workspace expo-app start",
-    "build:web": "yarn workspace next-app build",
+    "web": "yarn workspace bookmark-lab-web dev",
+    "native": "yarn workspace bookmark-lab-native start",
+    "build:web": "yarn workspace bookmark-lab-web build",
     "typecheck": "tsc -b --pretty"
   },
   "packageManager": "yarn@4.7.0",

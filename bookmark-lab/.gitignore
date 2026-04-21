@@ -72,6 +72,8 @@ apps/expo/android
 .turbo
 build/**
 
+*.tsbuildinfo
+
 .pnp.*
 .yarn/*
 !.yarn/patches
