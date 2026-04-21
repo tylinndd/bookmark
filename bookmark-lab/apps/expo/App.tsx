@@ -1,10 +1,10 @@
-import { NativeNavigation } from 'app/navigation/native'
 import { Provider } from 'app/provider'
+import { NativeStackNavigation } from './navigation/native-stack'
 
 export default function App() {
   return (
     <Provider>
-      <NativeNavigation />
+      <NativeStackNavigation />
     </Provider>
   )
 }
