@@ -1,5 +1,5 @@
 {
-  "name": "solito-blank",
+  "name": "bookmark-lab",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -12,8 +12,10 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "native": "cd apps/expo && yarn start",
-    "web": "cd apps/next && yarn next"
+    "web": "yarn workspace next-app dev",
+    "native": "yarn workspace expo-app start",
+    "build:web": "yarn workspace next-app build",
+    "typecheck": "tsc -b --pretty"
   },
   "packageManager": "yarn@4.7.0",
   "eslintConfig": {

@@ -19,7 +19,11 @@
     "react-native-worklets": "0.5.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.24.0",
     "@types/node": "17.0.21",
-    "eslint-config-next": "13.2.0"
+    "eslint": "^8.57.0",
+    "eslint-config-next": "13.2.0",
+    "react-native": "0.81.4",
+    "typescript": "~5.9.2"
   }
 }
