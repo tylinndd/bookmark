@@ -9,6 +9,13 @@ export type Bookmark = {
 /** In-memory sample data for routing spikes (no persistence, no network). */
 export const SAMPLE_BOOKMARKS: readonly Bookmark[] = [
   {
+    id: '1',
+    title: 'Smoke test',
+    url: 'https://example.com',
+    tags: ['test'],
+    note: 'Synthetic row for route checks (e.g. /bookmarks/1).',
+  },
+  {
     id: 'solito',
     title: 'Solito',
     url: 'https://solito.dev',
